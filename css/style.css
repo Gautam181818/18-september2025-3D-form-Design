@@ -1,0 +1,86 @@
+body{
+    background-image: url(../img/virat.jpg);
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    position: fixed;
+}
+
+.formbox{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(0, 0, 0, .4);
+    
+}
+
+.myform{
+    width: 330px;
+    height: 370px;
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    left: 580px;
+    top: 15%;
+    padding: 40px;
+    
+}
+
+.loginhere{
+    text-align: center;
+}
+
+.email{
+    color: #fff;
+    font-weight: bold;
+}
+
+.signin{
+    width: 80%;
+    height: 30px;
+    background-color: #f825f7;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+
+}
+
+form.myform div{
+    margin-bottom: 30px;
+}
+
+.email , .password{
+    width: 100%;
+    height: 25px;
+    color: aquamarine;
+    background: transparent;
+    border: none;
+}
+
+.forgerpassword{
+    background: transparent;
+    color: #fff;
+    border: none;
+    font-size: 1em;
+}
+
+.profilephoto{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: #fff;
+    position: absolute;
+    top: -35px;
+    left: 160px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fa-user{
+    color: #9ec102;
+    font-size: 3.8em;
+    position: relative;
+    top: 10px;
+    right: 4px;
+
+}
